@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="somar">
+        <label for="x">Aumento de 100%</label>
+        <input type="number" name="somar" id="x">
+        <input type="button" class="botao" onclick="somar()" value="ok">
+        
+    </div>
+    <div class="somar">
+        <label for="x">Aumento de 50%</label>
+        <input type="number" name="somar" id="z">
+        <input type="button" class="botao" onclick="aumento()" value="ok">
+        
+    </div>
+    <div class="somar">
+        <label for="x">30% de Investimento</label>
+        <input type="number" name="somar" id="b">
+        <label for="x">Valor + 30% de Investimento</label>
+        <input type="number" name="somar" id="c">
+        <input type="button" class="botao" onclick="Investimento()" value="ok">
+        
+    </div>
+    <div class="somar">
+        <label for="d">Digite o seu Salario:</label>
+        <input type="number" name="somar" id="d">
+        <input type="button" class="botao" onclick="salario()" value="ok">
+        <label for="x">Valor do Salario + 15% de HE</label>
+        <input type="text" name="somar" id="resultado"> 
+
+    </div>
+    <div class="somar">
+        <label for="m">Digite o Valor do Produto</label>
+        <input type="number" name="somar" id="m">
+        <input type="button" class="botao" onclick="produto()" value="ok">
+        <label for="p">Promoção, desconto de 7%</label>
+        <input type="number" name="somar" id="p" disabled>
+        
+    </div>
+    <script src="./Js/script.js"></script>
+</body>
+</html>
