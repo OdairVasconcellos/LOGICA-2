@@ -28,3 +28,13 @@ function produto() {
     let resultado = (m- m*0.07);
     document.getElementById("p").value = resultado;
 }
+function inss() {
+    let salariobruto = Number(document.getElementById ("t").value);
+   
+    let vt = salariobruto * 0.06; 
+    let inss = salariobruto * 0.08;
+    let salarioliquido = salariobruto - vt - inss;
+    document.getElementById("s").value = vt;
+    document.getElementById("r").value = inss;
+    document.getElementById("k").value = salarioliquido;
+}
